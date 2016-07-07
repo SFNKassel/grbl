@@ -1,5 +1,5 @@
 #!/bin/env bash
 git stash
 git pull
-./make.sh
-./programm.sh
+./scripts/make.sh
+./scripts/programm.sh
