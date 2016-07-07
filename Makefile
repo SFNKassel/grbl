@@ -96,5 +96,8 @@ disasm:	main.elf
 cpp:
 	$(COMPILE) -E $(SOURCEDIR)/main.c
 
+update:
+	scripts/update.sh
+
 # include generated header dependencies
 -include $(BUILDDIR)/$(OBJECTS:.o=.d)
