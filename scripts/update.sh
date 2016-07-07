@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 git stash
 git pull
 ./scripts/make.sh
